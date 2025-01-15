@@ -32,8 +32,6 @@ const Navbar = () => {
 
   const containerMenu = useRef<null | HTMLUListElement>(null);
 
-  const middleIndex: number = Math.ceil(navbarList.length / 2);
-
   const pathname: string = usePathname();
 
   useEffect(() => {
