@@ -2,7 +2,7 @@ import CardContainer from '../components/CardContainer';
 
 const GaleriFotoPage = () => {
   return (
-    <section className="flex w-full text-[#424242] flex-wrap sm:mx-32 mx-16 mt-10 gap-8">
+    <section className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 p-5">
       <CardContainer
         title="Balai Padukuhan Bolang"
         description="Balai Padukuhan Bolang adalah sebuah fasilitas masyarakat yang terletak di lokasi strategis, tepat di tengah wilayah RT-RT di Padukuhan Bolang. Posisi balai ini menghadap ke arah utara, menjadikannya pusat yang mudah diakses oleh seluruh warga. Balai ini berfungsi sebagai tempat berkumpulnya warga untuk berbagai keperluan, seperti rapat warga atau pelaksanaan acara-acara tertentu yang melibatkan banyak orang. Salah satu kegiatan yang sering diadakan di balai ini adalah latihan karawitan, yang menjadi ajang untuk mempererat hubungan sosial antarwarga melalui seni budaya. Fungsi balai ini sangat penting dalam mendukung kehidupan sosial dan budaya masyarakat di Padukuhan Bolang."
