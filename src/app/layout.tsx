@@ -14,7 +14,8 @@ const inter = Inter({
 // *************** Define the metadata
 export const metadata: Metadata = {
   title: 'Padukuhan Bolang',
-  description: 'Padukuhan Bolang adalah padukuhan yang terletak di Desa Giripanggung, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta',
+  description:
+    'Padukuhan Bolang terletak di Kalurahan Giripanggung, Kapanewon Tepus, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta. Sebagai bagian dari wilayah perbukitan, Padukuhan Bolang menawarkan pemandangan yang asri dan udara sejuk. Warga Padukuhan Bolang menjaga nilai-nilai keharmonisan yang tercermin dari semangat gotong royong dan kebersamaan yang kuat. Dengan luas wilayah mencapai 61.178 Ha, padukuhan ini terbagi dalam satu RW (RW 06) yang terdiri dari lima RT. Keberadaan ladang, perbukitan, dan hutan membuat Padukuhan Bolang tetap kaya akan potensi lokal.',
 };
 
 // *************** Define the layout

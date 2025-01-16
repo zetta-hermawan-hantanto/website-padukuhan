@@ -31,12 +31,12 @@ const analyticsData: Array<IAnalyticsData> = [
 const AboutSection = () => {
   return (
     <div className="flex flex-col xl:mx-28 mx-4 max-lg:mt-4 mt-20">
-      <div className="text-[#424242] flex items-center gap-3 max-lg:justify-center">
+      <div className="text-[#424242] flex items-center gap-3 max-lg:justify-center" data-aos="fade-right">
         <span className="h-[3px] bg-[#424242] w-[100px] max-lg:hidden" />
         <h2 className="font-bold text-[26px]">Tentang Padukuhan</h2>
       </div>
 
-      <div className="flex justify-center flex-col lg:items-end items-center w-full">
+      <div className="flex justify-center flex-col lg:items-end items-center w-full" data-aos="fade-left">
         <p className="w-[600px] max-lg:w-full text-[#424242] lg:mt-8 mt-4 sm:text-[20px] text-[14px] leading-8 max-lg:text-center text-justify max-sm:px-2">
           Padukuhan Bolang, yang terletak di Kalurahan Giripanggung, Kapanewon Tepus, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta,
           menawarkan kenyamanan baik bagi penduduk maupun para pengunjung. Lingkungan di padukuhan ini dikelilingi oleh pepohonan rindang
@@ -48,7 +48,7 @@ const AboutSection = () => {
         <img
           src="/assets/images/about-bolang.jpeg"
           className="object-cover w-[600px] max-lg:w-full rounded-md xl:mt-6 mt-10 max-h-[400px]"
-          alt="about-section"
+          alt="Gapura Padukuhan Bolang"
         />
       </div>
 

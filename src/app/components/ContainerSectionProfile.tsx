@@ -4,7 +4,7 @@ interface IContainerSectionProfile {
   title: string;
   description: string;
   image?: string;
-  alt: string;
+  alt?: string;
 }
 
 const ContainerSectionProfile = ({ title, description, image, alt }: IContainerSectionProfile) => {

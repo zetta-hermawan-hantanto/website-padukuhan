@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 
-const CardPotentional = ({ title, description, image }: { title: string; description: string; image: string }) => {
+const CardPotentional = ({ title, description, image, alt }: { title: string; description: string; image: string; alt: string }) => {
   return (
     <div className="relative flex bg-white rounded-lg shadow-md sm:p-8 p-4 items-center overflow-hidden transform transition duration-500 hover:shadow-2xl hover:-translate-y-3 max-sm:flex-col">
       <img
         src={`/assets/images/${image}.jpeg`}
-        alt="potentional1"
+        alt={alt}
         className="h-[300px] w-[250px] object-cover rounded-md transition-transform duration-500 hover:scale-110"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-white to-gray-100 opacity-0 transition duration-500 hover:opacity-100 backdrop-blur-md pointer-events-none"></div>

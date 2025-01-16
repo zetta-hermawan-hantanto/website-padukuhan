@@ -7,8 +7,9 @@ const MapPadukuhan = () => {
           height="600"
           loading="lazy"
           className="mt-12 w-full"
+          data-aos="fade-right"
         />
-        <div className="flex flex-col text-[#424242]">
+        <div className="flex flex-col text-[#424242]" data-aos="fade-left">
           <h2 className="font-bold text-[24px]">Map Padukuhan Bolang</h2>
           <p className="sm:text-[20px] text-[14px] text-[#424242] leading-8 max-w-[900px] text-justify mt-4">
             Padukuhan Bolang terletak di kawasan dataran tinggi yang dikelilingi oleh suasana pedesaan yang asri dan tenang. Berada dalam

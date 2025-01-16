@@ -67,7 +67,11 @@ const HeroSection = () => {
   return (
     <div className="relative h-[calc(100vh-94px)] w-full">
       <div>
-        <img src="/assets/images/hero.jpeg" alt="hero" className={`h-[calc(100vh-94px)] w-full rounded-sm object-cover`} />
+        <img
+          src="/assets/images/hero.jpeg"
+          alt="Daerah Perladangan Tapen di Padukuhan Bolang"
+          className={`h-[calc(100vh-94px)] w-full rounded-sm object-cover`}
+        />
       </div>
 
       <div className="absolute inset-0 flex items-center justify-center text-white">

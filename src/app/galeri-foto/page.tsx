@@ -7,14 +7,14 @@ const GaleriFotoPage = () => {
         title="Balai Padukuhan Bolang"
         description="Balai Padukuhan Bolang adalah sebuah fasilitas masyarakat yang terletak di lokasi strategis, tepat di tengah wilayah RT-RT di Padukuhan Bolang. Posisi balai ini menghadap ke arah utara, menjadikannya pusat yang mudah diakses oleh seluruh warga. Balai ini berfungsi sebagai tempat berkumpulnya warga untuk berbagai keperluan, seperti rapat warga atau pelaksanaan acara-acara tertentu yang melibatkan banyak orang. Salah satu kegiatan yang sering diadakan di balai ini adalah latihan karawitan, yang menjadi ajang untuk mempererat hubungan sosial antarwarga melalui seni budaya. Fungsi balai ini sangat penting dalam mendukung kehidupan sosial dan budaya masyarakat di Padukuhan Bolang."
         image="/assets/images/galeri-foto/balai-padukuhan.jpeg"
-        alt="rumah-dukuh"
+        alt="Balai Padukuhan Bolang adalah sebuah fasilitas masyarakat yang terletak di lokasi strategis tepatnya di tengah-tengah wilayah RT di Padukuhan ini."
         key={1}
       />
       <CardContainer
         title="Rumah Dukuh Padukuhan Bolang"
         description="Rumah Dukuh Padukuhan Bolang terletak di sebelah utara Balai Padukuhan, tepatnya di RT-02, RW-06. Rumah ini tidak hanya menjadi tempat tinggal yang nyaman bagi Bapak Dukuh dan keluarganya, tetapi juga berfungsi sebagai salah satu pusat interaksi masyarakat. Warga sering mengunjungi rumah ini untuk berbagai keperluan, seperti mengurus perizinan, meminta restu untuk melaksanakan kegiatan, atau melaporkan berbagai hal kepada Bapak Dukuh. Kehadiran rumah ini mencerminkan keterbukaan dan kedekatan pemimpin dengan masyarakat, menjadi simbol harmoni dan gotong royong di Padukuhan Bolang."
         image="/assets/images/galeri-foto/rumah-dukuh.jpeg"
-        alt="rumah-dukuh"
+        alt="Rumah Dukuh Padukuhan Bolang terletak di sebelah utara Balai Padukuhan, tepatnya di RT-02, RW-06."
         key={1}
       />
       <CardContainer
@@ -29,7 +29,7 @@ const GaleriFotoPage = () => {
         description="Rumah ini merupakan rumah RT-03 di Padukuhan Bolang yang mencerminkan gaya arsitektur tradisional Jawa dengan sentuhan modern. Atapnya berbentuk limasan dengan ornamen khas di puncaknya, memperlihatkan identitas budaya lokal yang masih kental. Dindingnya dicat warna biru cerah yang memberikan kesan segar dan bersahabat, dilengkapi dengan pagar depan sederhana berwarna senada yang menambah estetika rumah. Halaman depan yang lapang menambah kesan keterbukaan dan keramahan rumah ini sebagai bagian dari kehidupan sosial masyarakat Padukuhan Bolang."
         image="/assets/images/galeri-foto/ketua-rt-03.jpeg"
         alt="rumah-dukuh"
-        key={2}
+        key={3}
       />
       <CardContainer
         title="Pohon Beringin Padukuhan Bolang"
