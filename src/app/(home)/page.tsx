@@ -1,13 +1,17 @@
 'use client';
 
+// *************** IMPORT LIBRARIES ***************
 import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
+// *************** IMPORT MODULES ***************
 import HeroSection from '../components/Hero';
 import AboutSection from '../components/About';
 import Potentional from '../components/Potentional';
 import CarouselSection from '../components/CarouselSection';
 import MapPadukuhan from '../components/MapPadukuhan';
-import { useEffect } from 'react';
-import 'aos/dist/aos.css';
+import VideoSection from '../components/VideoSection';
 
 const HomeSection = () => {
   useEffect(() => {
@@ -18,14 +22,11 @@ const HomeSection = () => {
   }, []);
 
   return (
-    <section className="w-full overflow-x-hidden flex flex-col">
-      <div className="px-4">
-        <HeroSection />
-      </div>
-      <div className="py-8 px-4">
-        <AboutSection />
-      </div>
+    <section className="flex flex-col w-full">
+      <HeroSection />
+      <AboutSection />
       <Potentional />
+      <VideoSection />
       <CarouselSection />
       <MapPadukuhan />
     </section>

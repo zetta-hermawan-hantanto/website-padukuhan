@@ -1,8 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-'use client';
 
-import AboutDataSection from './AboutData';
+// *************** IMPORT LIBRARIES ***************
+import { Trees } from 'lucide-react';
 import { ReactNode } from 'react';
+
+// *************** IMPORT MODULES ***************
+import AboutDataSection from './AboutData';
 
 interface IAnalyticsData {
   title: string;
@@ -30,25 +33,30 @@ const analyticsData: Array<IAnalyticsData> = [
 
 const AboutSection = () => {
   return (
-    <div className="flex flex-col xl:mx-28 mx-4 max-lg:mt-4 mt-20">
-      <div className="text-[#424242] flex items-center gap-3 max-lg:justify-center" data-aos="fade-right">
-        <span className="h-[3px] bg-[#424242] w-[100px] max-lg:hidden" />
-        <h2 className="font-bold text-[26px]">Tentang Padukuhan</h2>
+    <div className="flex flex-col lg:mx-20 mx-4 lg:mt-20 mt-4 max-lg:items-center">
+      <div className="text-[#424242] flex items-center gap-3" data-aos="fade-right">
+        <span className="h-[3px] bg-[#424242] w-[125px] max-lg:hidden" />
+        <h2 className="text-[20px] sm:text-[26px] font-bold">Seputar Padukuhan Bolang</h2>
+        <Trees size={32} color="#424242" />
       </div>
 
-      <div className="flex justify-center flex-col lg:items-end items-center w-full" data-aos="fade-left">
-        <p className="w-[600px] max-lg:w-full text-[#424242] lg:mt-8 mt-4 sm:text-[20px] text-[14px] leading-8 max-lg:text-center text-justify max-sm:px-2">
-          Padukuhan Bolang, yang terletak di Kalurahan Giripanggung, Kapanewon Tepus, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta,
-          menawarkan kenyamanan baik bagi penduduk maupun para pengunjung. Lingkungan di padukuhan ini dikelilingi oleh pepohonan rindang
-          yang menciptakan suasana asri, sejuk, dan menenangkan. Kebersihan lingkungan juga sangat terjaga berkat kesadaran tinggi
-          masyarakat dalam menjaga kelestarian alam. Hal ini tercermin dari tradisi rutin mereka, yaitu kegiatan bersih dusun, yang
-          dilakukan dengan penuh semangat kebersamaan. Masyarakat Bolang dikenal memiliki rasa solidaritas yang kuat, tercermin melalui
-          tradisi gotong royong dalam kerja bakti serta saling membantu satu sama lain dalam berbagai kegiatan.
+      <div className="flex justify-center flex-col lg:items-end w-full" data-aos="fade-left">
+        <p className="w-1/2 max-lg:w-full text-[#424242] lg:mt-8 mt-4 lg:text-[20px] sm:text-[18px] sm:leading-9 leading-8 max-lg:text-justify text-justify">
+          Padukuhan Bolang merupakan salah satu padukuhan yang terletak di Kalurahan Giripanggung, Kapanewon Tepus, Kabupaten Gunung Kidul,
+          Daerah Istimewa Yogyakarta. Padukuhan ini dikelilingi oleh perbukitan dan pepohonan yang membuat udara di padukuhan ini sejuk dan
+          asri. Jarak dari pusat Kota Yogyakarta menuju Padukuhan Bolang sekitar 60 km dengan waktu tempuh sekitar 2 jam menggunakan
+          kendaraan pribadi seperti motor atau mobil. Mayoritas penduduk di Padukuhan Bolang bekerja sebagai petani dan beternak. Sebagian
+          besar petani di Padukuhan Bolang menanam palawija seperti jagung, kacang tanah, dan singkong. Selain itu, sebagian penduduk juga
+          senang beternak hewan seperti ayam, kambing dan sapi. Kehidupan masyarakat di Padukuhan Bolang penuh dengan kebersamaan.
+          Masyarakat disini senang bekerja sama dan gotong royong dalam kegiatan sehari-hari seperti membersihkan lingkungan dan membangun
+          infrastruktur dusun. Padukuhan Bolang memiliki tradisi dan budaya yang kental dan masih dijaga oleh masyarakat setempat dengan
+          baik. Padukuhan Bolang menawarkan kenyamanan dan ketenangan bagi siapa saja yang berkunjung ke padukuhan ini. Mulai dari
+          pemandangan, udara, hingga keramahan masyarakatnya membuat Padukuhan Bolang menjadi tempat yang cocok untuk dikunjungi.
         </p>
         <img
-          src="/assets/images/about-bolang.jpeg"
-          className="object-cover w-[600px] max-lg:w-full rounded-md xl:mt-6 mt-10 max-h-[400px]"
-          alt="Gapura Padukuhan Bolang"
+          src="https://zagr038nx6.ufs.sh/f/lVDJ9nQoGAktT148SxeodEqRKDnUQ8V014M2FZrLupxXs5b3"
+          className="object-cover w-1/2 max-lg:w-full rounded-md xl:mt-6 mt-10"
+          alt="Grid foto seputar kehidupan dan suasana di Padukuhan Bolang"
         />
       </div>
 

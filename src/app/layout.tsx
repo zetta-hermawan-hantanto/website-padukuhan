@@ -26,9 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${inter.variable} antialiased w-full flex flex-col overflow-x-hidden`}>
+      <body className={`${inter.variable} ${inter.variable} antialiased max-w-full w-full mx-auto`}>
         <Navbar />
-        <main>{children}</main>
+        <main className="w-full overflow-x-hidden">{children}</main>
         <Footer />
       </body>
     </html>
